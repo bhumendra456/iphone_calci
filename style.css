@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(43, 9, 235);
+    background-image: url("image.jpeg");
+}
+
+.main{
+    width: 370px;
+    height: 708px;
+    border: 3px rgb(250, 247, 247) solid;
+    box-shadow: 5px 5px 5px rgba(129, 193, 203, 0.805);
+    border-radius: 40px;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #131212;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.ads{
+    width: 100%;
+    height: 15%;
+    background-color: #131212;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.expression{
+    width: 100%;
+    height: 8%;
+    background-color: #131212;
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 25px;
+    padding: 5px 10px 0px 210px;
+}
+
+.answer{
+    width: 100%;
+    height: 12%;
+    background-color: #131212;
+    color: white;
+    font-size: 50px;
+    padding: 0px 10px 0px 215px;
+}
+
+.numbers{
+    width: 100%;
+    height: 63%;
+    background-color: #131212;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    display: grid;
+    grid-template-columns: 92.5px 92.5px 92.5px 92.5px ;
+    grid-template-rows: 91px 91px 91px 91px 91px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+/* .footer{
+    width: 100%;
+    height: 2%;
+    background-color: #e61515;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top: 5px rgb(100, 9, 237) solid;
+} */
+
+.symbols{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
